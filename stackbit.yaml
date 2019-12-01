@@ -9,7 +9,7 @@ dataDir: src/data
 pagesDir: src/pages
 pageLayoutKey: template
 metadata:
-  title: Spectral
+  title: Thirteen
   description: a multipage theme
   author: Pixelarity
   authorURL: 'https://pixelarity.com'

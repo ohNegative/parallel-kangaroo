@@ -1,13 +1,13 @@
 ---
 title: Home
 banner:
-  title: Spectral
+  title: 'Name: Six'
   subtitle: |-
     Blandit duis accumsan  
     arcu sagittis viverra  
     blandit at Interdum.
   actions:
-    - label: Activate
+    - label: Recent Work
       url: /generic
       is_scrolly: false
       is_primary: true

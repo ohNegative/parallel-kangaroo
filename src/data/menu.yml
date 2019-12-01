@@ -1,5 +1,7 @@
 actions:
-  - label: Sign Up
-    url: /generic
-  - label: Log In
-    url: /generic
+  # - label: Home
+  #   url: /generic
+  # - label: About
+  #   url: /generic
+  # - label: Work
+  #   url: /elements
