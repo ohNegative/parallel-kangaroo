@@ -4,6 +4,7 @@ import _ from 'lodash';
 import components, {Layout} from '../components/index';
 import Banner from '../components/Banner';
 
+
 export default class Home extends React.Component {
     render() {
         return (

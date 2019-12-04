@@ -15,8 +15,8 @@ export default class Elements extends React.Component {
             <Layout {...this.props}>
             <div> 
                 <Helmet>
-                    <title>Thirteen | Elements</title>
-                    <meta name="description" content="This is the design page with all the cool SEO titles in it" />
+                    <title>Thirteen | About</title>
+                    <meta name="description" content="This is the about page which is all about me, six" />
                 </Helmet>
             </div>
                 <article id="main">
@@ -214,108 +214,6 @@ export default class Elements extends React.Component {
                                         </tfoot>
                                     </table>
                                 </div>
-                            </section>
-                            <section>
-                                <h4>Buttons</h4>
-                                <ul className="actions">
-                                    <li><Link to="#" className="button primary">Primary</Link></li>
-                                    <li><Link to="#" className="button">Default</Link></li>
-                                </ul>
-                                <ul className="actions">
-                                    <li><Link to="#" className="button large">Large</Link></li>
-                                    <li><Link to="#" className="button">Default</Link></li>
-                                    <li><Link to="#" className="button small">Small</Link></li>
-                                </ul>
-                                <ul className="actions fit">
-                                    <li><Link to="#" className="button fit">Fit</Link></li>
-                                    <li><Link to="#" className="button primary fit">Fit</Link></li>
-                                    <li><Link to="#" className="button fit">Fit</Link></li>
-                                </ul>
-                                <ul className="actions fit small">
-                                    <li><Link to="#" className="button primary fit small">Fit + Small</Link></li>
-                                    <li><Link to="#" className="button fit small">Fit + Small</Link></li>
-                                    <li><Link to="#" className="button primary fit small">Fit + Small</Link></li>
-                                </ul>
-                                <ul className="actions">
-                                    <li><Link to="#" className="button primary icon fa-download">Icon</Link></li>
-                                    <li><Link to="#" className="button icon fa-download">Icon</Link></li>
-                                </ul>
-                                <ul className="actions">
-                                    <li><span className="button primary disabled">Disabled</span></li>
-                                    <li><span className="button disabled">Disabled</span></li>
-                                </ul>
-                            </section>
-                            <section>
-                                <h4>Form</h4>
-                                <form method="post" action="#">
-                                    <div className="row gtr-uniform">
-                                        <div className="col-6 col-12-xsmall">
-                                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-                                        </div>
-                                        <div className="col-6 col-12-xsmall">
-                                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                        </div>
-                                        <div className="col-12">
-                                            <select name="demo-category" id="demo-category">
-                                                <option value="">- Category -</option>
-                                                <option value="1">Manufacturing</option>
-                                                <option value="1">Shipping</option>
-                                                <option value="1">Administration</option>
-                                                <option value="1">Human Resources</option>
-                                            </select>
-                                        </div>
-                                        <div className="col-4 col-12-small">
-                                            <input type="radio" id="demo-priority-low" name="demo-priority" checked/>
-                                            <label htmlFor="demo-priority-low">Low</label>
-                                        </div>
-                                        <div className="col-4 col-12-small">
-                                            <input type="radio" id="demo-priority-normal" name="demo-priority"/>
-                                            <label htmlFor="demo-priority-normal">Normal</label>
-                                        </div>
-                                        <div className="col-4 col-12-small">
-                                            <input type="radio" id="demo-priority-high" name="demo-priority"/>
-                                            <label htmlFor="demo-priority-high">High</label>
-                                        </div>
-                                        <div className="col-6 col-12-small">
-                                            <input type="checkbox" id="demo-copy" name="demo-copy"/>
-                                            <label htmlFor="demo-copy">Email me a copy</label>
-                                        </div>
-                                        <div className="col-6 col-12-small">
-                                            <input type="checkbox" id="demo-human" name="demo-human" checked/>
-                                            <label htmlFor="demo-human">Not a robot</label>
-                                        </div>
-                                        <div className="col-12">
-                                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6" />
-                                        </div>
-                                        <div className="col-12">
-                                            <ul className="actions">
-                                                <li><input type="submit" value="Send Message" className="primary" /></li>
-                                                <li><input type="reset" value="Reset" /></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </form>
-                            </section>
-                            <section>
-                                <h4>Image</h4>
-                                <h5>Fit</h5>
-                                <div className="box alt">
-                                    <div className="row gtr-50 gtr-uniform">
-                                        <div className="col-12"><span className="image fit"><img src="images/banner.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-                                        <div className="col-4"><span className="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-                                    </div>
-                                </div>
-                                <h5>Left &amp; Right</h5>
-                                <p><span className="image left"><img src="images/pic04.jpg" alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-                                <p><span className="image right"><img src="images/pic05.jpg" alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
                             </section>
                         </div>
                     </section>
