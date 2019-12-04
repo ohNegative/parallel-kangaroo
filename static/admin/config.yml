@@ -630,57 +630,57 @@ collections:
             required: true
             default: elements
   - name: about
-      label: About
-      files:
-        - name: about
-          label: About
-          file: src/pages/about.md
-          fields:
-            - widget: string
-              name: title
-              label: Page Title
-              required: true
-              hint: The bold first line of text displayed in the page banner
-            - widget: markdown
-              name: subtitle
-              label: Page Subtitle
-              required: false
-              hint: The text displayed below the page title
-            - widget: object
-              name: menus
-              label: About Menus
-              required: false
-              hint: Which menus should this page show up in
-              fields:
-                - widget: object
-                  name: main
-                  label: Main menu item
-                  required: false
-                  hint: Main menu item for this page
-                  fields:
-                    - widget: string
-                      name: title
-                      label: Title
-                      required: false
-                      hint: The title of the menu item
-                    - widget: number
-                      name: weight
-                      label: Weight
-                      required: false
-                      hint: Position for sorting
-                      valueType: int
-                    - widget: string
-                      name: identifier
-                      label: Identifier
-                      required: false
-                      hint: >-
-                        The identifier of a menu item could be used as a parent
-                        menu of another menu item
-            - widget: hidden
-              name: template
-              label: Template
-              required: true
-              default: about
+    label: About
+    files:
+      - name: about
+        label: About
+        file: src/pages/about.md
+        fields:
+          - widget: string
+            name: title
+            label: Page Title
+            required: true
+            hint: The bold first line of text displayed in the page banner
+          - widget: markdown
+            name: subtitle
+            label: Page Subtitle
+            required: false
+            hint: The text displayed below the page title
+          - widget: object
+            name: menus
+            label: About Menus
+            required: false
+            hint: Which menus should this page show up in
+            fields:
+              - widget: object
+                name: main
+                label: Main menu item
+                required: false
+                hint: Main menu item for this page
+                fields:
+                  - widget: string
+                    name: title
+                    label: Title
+                    required: false
+                    hint: The title of the menu item
+                  - widget: number
+                    name: weight
+                    label: Weight
+                    required: false
+                    hint: Position for sorting
+                    valueType: int
+                  - widget: string
+                    name: identifier
+                    label: Identifier
+                    required: false
+                    hint: >-
+                      The identifier of a menu item could be used as a parent
+                      menu of another menu item
+          - widget: hidden
+            name: template
+            label: Template
+            required: true
+            default: about
   - name: site_menus
     label: Site Menus
     files:
