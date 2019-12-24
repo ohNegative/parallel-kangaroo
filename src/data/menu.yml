@@ -1,7 +1,9 @@
 actions:
-  # - label: Home
-  #   url: /generic
-  # - label: About
-  #   url: /generic
-  # - label: Work
-  #   url: /elements
+  - label: Home
+    url: /
+  - label: About
+    url: /about
+  - label: Work
+    url: /work
+  - label: Contact
+    url: /contact
