@@ -1,10 +1,10 @@
 ---
-title: Generic Page
+title: Work
 subtitle: Aliquam ut ex ut interdum donec amet imperdiet eleifend
 background_style: style5
 menus:
   main:
-    title: Generic
+    title: Work
     weight: 2
 template: page
 ---
