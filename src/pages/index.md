@@ -8,7 +8,7 @@ banner:
     blandit at Interdum.
   actions:
     - label: Recent Work
-      url: /generic
+      url: /work
       is_scrolly: false
       is_primary: true
   bottom_link:
