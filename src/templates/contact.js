@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
                     <section className="wrapper style5">
                         <div className="inner">
                             <section>
-                            <form name="contact" method="POST" data-netlify="true">
+                            <form action="#" name="main-contact" method="POST" data-netlify="true">
                                 <label>
                                     Name
                                     <input type="text" name="name" id="name" />
