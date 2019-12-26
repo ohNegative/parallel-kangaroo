@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
-import Layout from '../layout'
+import Layout from '../templates/elements'
 
 function encode(data) {
   return Object.keys(data)
@@ -42,7 +42,7 @@ export default function Contact() {
         onSubmit={handleSubmit}
       >
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        <input type="hidden" name="main-contact" value="contact" />
+        <input type="hidden" name="" value="contact" />
         <p hidden>
           <label>
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
