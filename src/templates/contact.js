@@ -1,78 +1,57 @@
 import React from 'react';
-import { navigate } from 'gatsby-link';
-import Layout from '../templates/contact';
+import _ from 'lodash';
 
-function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
+import {Layout} from '../components/index';
+import {markdownify, Link} from '../utils';
+import {Helmet} from 'react-helmet';
 
-export default function Contact() {
-  const [state, setState] = React.useState({})
+/* eslint-disable */
 
-  const handleChange = (e) => {
-    setState({ ...state, [e.target.name]: e.target.value })
-  }
+export default class Contact extends React.Component {
+    render() {
+        return (
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...state,
-      }),
-    })
-      .then(() => navigate(form.getAttribute('action')))
-      .catch((error) => alert(error))
-  }
-
-  return (
-    <Layout>
-      <h1>Contact</h1>
-      <form
-        name="contact"
-        method="post"
-        action="/thanks/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        onSubmit={handleSubmit}
-      >
-        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-        <input type="hidden" name="main-contact" value="contact" />
-        <p hidden>
-          <label>
-            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your name:
-            <br />
-            <input type="text" name="name" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your email:
-            <br />
-            <input type="email" name="email" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message:
-            <br />
-            <textarea name="message" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-    </Layout>
-  )
+            <Layout {...this.props}>
+            <div> 
+                <Helmet>
+                    <title>Thirteen | Contact</title>
+                    <meta name="description" content="This is the design page with all the cool SEO titles in it" />
+                </Helmet>
+            </div>
+                <article id="main">
+                    <header>
+                        <h2>{_.get(this.props, 'pageContext.frontmatter.title')}</h2>
+                        {markdownify(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
+                    </header>
+                    <section className="wrapper style5">
+                        <div className="inner">
+                            <section>
+                            <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+                              <input type="hidden" name="bot-field" />
+                                    <label>
+                                        Name
+                                        <input type="text" name="name" id="name" />
+                                    </label>
+                                    <label>
+                                        Email
+                                        <input type="email" name="email" id="email" />
+                                    </label>
+                                    <label>
+                                        Subject
+                                        <input type="text" name="subject" id="subject" />
+                                    </label>
+                                    <label>
+                                        Message
+                                        <textarea name="message" id="message" rows="5" />
+                                    </label>
+                                <button type="submit">Send</button>
+                                <input type="reset" value="Clear" />
+                                </form>
+                            </section>
+                        </div>
+                    </section>
+                </article>
+            </Layout>
+        );
+    }
 }
