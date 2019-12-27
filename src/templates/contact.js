@@ -1,6 +1,6 @@
-import React from 'react'
-import { navigate } from 'gatsby-link'
-import Layout from '../templates/contact'
+import React from 'react';
+import { navigate } from 'gatsby-link';
+import Layout from '../templates/contact';
 
 function encode(data) {
   return Object.keys(data)
