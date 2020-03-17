@@ -6,7 +6,7 @@ menus:
   main:
     title: About
     weight: 4
-template: page
+template: about
 ---
 
 ### Becoming a developer - the hard way

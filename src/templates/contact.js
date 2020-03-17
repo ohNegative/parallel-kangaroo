@@ -15,7 +15,7 @@ export default class Contact extends React.Component {
             <div> 
                 <Helmet>
                     <title>Thirteen | Contact</title>
-                    <meta name="description" content="This is the design page with all the cool SEO titles in it" />
+                    <meta name="description" content="Contact Six - A Minneapolis UI/UX Developer" />
                 </Helmet>
             </div>
                 <article id="main">
