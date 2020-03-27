@@ -1,6 +1,6 @@
 ---
 title: Contact
-subtitle: A good friend of mine used to say, "This is a very simple job. You design the site, you build the site, you write the content. Sometimes you win, sometimes you lose, sometimes it rains." Think about that for a while.
+subtitle: Got any questions about where I've been or where I'm going to? Feel free to reach out. 
 menus:
   main:
     title: Contact

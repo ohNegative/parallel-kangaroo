@@ -10,7 +10,6 @@ import {Helmet} from 'react-helmet';
 export default class Contact extends React.Component {
     render() {
         return (
-
             <Layout {...this.props}>
             <div> 
                 <Helmet>

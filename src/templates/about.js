@@ -1,7 +1,5 @@
 import React from 'react';
-
 import _ from 'lodash';
-
 import {Layout} from '../components/index';
 import {markdownify, Link} from '../utils';
 import {Helmet} from 'react-helmet';
@@ -20,7 +18,7 @@ export default class Elements extends React.Component {
                 </Helmet>
             </div>
                 <article id="main">
-                    <header>
+                    <header class="about">
                         <h2>{_.get(this.props, 'pageContext.frontmatter.title')}</h2>
                         {markdownify(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
                     </header>

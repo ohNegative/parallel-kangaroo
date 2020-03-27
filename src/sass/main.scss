@@ -1873,53 +1873,69 @@ $palette: (
 
 /* Main */
 
+	@mixin header {
+		h2 {
+			font-size: 1.75em;
+			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+
+		p {
+			color: inherit;
+			letter-spacing: _size(letter-spacing-alt);
+			text-transform: uppercase;
+			top: 0;
+			margin: 0 20px;
+
+			a {
+				color: inherit;
+			}
+		}
+
+		@include breakpoint('<=xlarge') {
+			@include padding(10em, 0);
+		}
+
+		@include breakpoint('<=large') {
+			@include padding(8em, 3em);
+		}
+
+		@include breakpoint('<=medium') {
+			@include padding(10em, 3em);
+		}
+
+		@include breakpoint('<=small') {
+			@include padding(5em, 3em);
+
+			h2 {
+				font-size: 1.25em;
+				margin: 0 0 (_size(element-margin) * 0.5) 0;
+			}
+		}
+	}
+	%background-image {
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
-			background-attachment: fixed;
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			text-align: center;
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/pic01.jpg")'));
+			@extend %background-image;
+			@include header;
+		}
+	}
 
-			h2 {
-				font-size: 1.75em;
-				margin: 0 0 (_size(element-margin) * 0.25) 0;
-			}
 
-			p {
-				color: inherit;
-				letter-spacing: _size(letter-spacing-alt);
-				text-transform: uppercase;
-				top: 0;
-				margin: 0 20px;
-
-				a {
-					color: inherit;
-				}
-			}
-
-			@include breakpoint('<=xlarge') {
-				@include padding(10em, 0);
-			}
-
-			@include breakpoint('<=large') {
-				@include padding(8em, 3em);
-			}
-
-			@include breakpoint('<=medium') {
-				@include padding(10em, 3em);
-			}
-
-			@include breakpoint('<=small') {
-				@include padding(5em, 3em);
-
-				h2 {
-					font-size: 1.25em;
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-				}
-			}
+	#main {
+		> header.about {
+			@include padding(12em, 0);
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/pic03.jpg")'));
+			@extend %background-image;
+			@include header;
 		}
 	}
 
@@ -2002,7 +2018,7 @@ $palette: (
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/modern-office.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2023,7 +2039,7 @@ $palette: (
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/modern-office.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

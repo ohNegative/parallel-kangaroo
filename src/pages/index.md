@@ -3,9 +3,7 @@ title: Home
 banner:
   title: 'Name: Six'
   subtitle: |-
-    Blandit duis accumsan  
-    arcu sagittis viverra  
-    blandit at Interdum.
+    Role: UI|UX Developer
   actions:
     - label: Recent Work
       url: /work
@@ -19,22 +17,19 @@ banner:
 sections:
   - type: icons
     title: |-
-      Arcu aliquet vel lobortis ata nisl
-      eget augue amet aliquet nisl cep donec
+      Minneapolis based UI/UX designer
+      with over 7 years of experience
     subtitle: >-
-      Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-      eleifend  
-
-      fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-      ullamcorper.  
+      I've built everything from static web sites to portals and enterprise applications.<br> 
+      I take a user centered approach with all my design and development work.
     section_id: one
     background_style: style1
     feature_icons:
       - title: Lorem
-        icon: fa-diamond
+        icon: fa-edit
         style: style1
       - title: Ipsum
-        icon: fa-heart-o
+        icon: fa-diamond
         style: style2
       - title: Dolor
         icon: fa-code
@@ -46,26 +41,29 @@ sections:
     background_style: style2
     spotlights:
       - title: |-
-          Magna primis lobortis
-          sed ullamcorper
+          XPS Lubricants
+          corporate e-commerce site
         text: >-
-          Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-          imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-        home_img_path: images/pic01.jpg
+          Two month deadline. Still delivered on time and under budget.<br>
+          Technologies: XML, MVC4, ASP.NET, Foundation framework.<br> 
+          [Learn More](/work)
+        home_img_path: images/xps-wrk.jpg
       - title: |-
-          Tortor dolore feugiat
-          elementum magna
+          Tricare Healthcare 
+          Military (DHA) portal
         text: >-
-          Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-          imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-        home_img_path: images/pic02.jpg
+          18 teams, 36 months, $18 million dollar project.<br>
+          Technologies: AngularJS 1.x., AEM CMS, Bootstrap framework.<br> 
+          [Learn More](/work)
+        home_img_path: images/tricare-wrk.jpg
       - title: |-
-          Augue eleifend aliquet
-          sed condimentum
+          U+B Architecture
+          interactive small business website
         text: >-
-          Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-          imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-        home_img_path: images/pic03.jpg
+          A full redesign and development effort over two years in the making.<br>
+          Technologies: Wordpress and a lot of custom javascript.<br> 
+          [Learn More](/work)
+        home_img_path: images/ub-wrk.jpg
     component: Spotlights
   - type: features
     title: Accumsan mus tortor nunc aliquet
