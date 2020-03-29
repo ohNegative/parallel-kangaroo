@@ -5,7 +5,7 @@ subtitle: This is the XPS Lubricants Detail page
 
 menus:
   main:
-    title: Contact
+    title: XPS Detail
     weight: 4
 template: work-detail
 ---

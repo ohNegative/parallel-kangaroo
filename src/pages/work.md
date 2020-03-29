@@ -1,47 +1,42 @@
 ---
-title: Work (list)
-subtitle: A curated list of projects
+title: Current Work Projects
+subtitle: A curated list of recent projects
 background_style: style4
 sections:
   - type: features
-    title: Accumsan mus tortor nunc aliquet
+    title: Some current projects I completed
     subtitle: >-
-      Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-      eleifend  
+        Below is a list of projects I recently completed. Click through to find more
 
-      fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+        details about each projects including technologies and challenges I faced with each.
     section_id: three
-    background_style: style
+    background_style: style4
     features:
-      - title: Arcu accumsan
+      - title: XPS Lubricants
         feature_img_path: images/xps-wrk.jpg
         text: >-
-         Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem<br>
-         [XPS Portal Details](/xps-details)
-      - title: Ac Augue Eget
+         [XPS Details](/xps-details)
+      - title: All Savers Portal
+        feature_img_path: images/allsavers-wrk.jpg
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-      
-      - title: Mus Scelerisque
+          [All Savers Details](/allsavers-details)
+      - title: Shadywood Tree Experts
+        feature_img_path: images/shadywood-wrk.jpg
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        
-      - title: Mauris Imperdiet
+          [Shadywood Details](/shadywood-details)
+      - title: Tricare Portal
+        feature_img_path: images/tricare-wrk.jpg
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
+          [Tricare Details](/tricare-details)
         icon: 
-      - title: Aenean Primis
+      - title: U+B Architects
+        feature_img_path: images/ub-wrk.jpg
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-      
-      - title: Tortor Ut
+          [U+B Details](/ub-details)
+      - title: Hyperbaric Therapy
+        feature_img_path: images/hyper-wrk.jpg
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.     
+          [Hybaric Therapy Details](/hyper-details)
     component: WorkList
 menus:
   main:
