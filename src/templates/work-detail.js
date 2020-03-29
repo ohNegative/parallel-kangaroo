@@ -1,24 +1,20 @@
 import React from 'react';
 import _ from 'lodash';
+
 import {Layout} from '../components/index';
 import {markdownify, htmlToReact} from '../utils';
 import {Helmet} from 'react-helmet';
 
-/* eslint-disable */
-
-export default class Elements extends React.Component {
+export default class Page extends React.Component {
     render() {
         return (
-
             <Layout {...this.props}>
-            <div> 
-                <Helmet>
-                    <title>Thirteen | About</title>
+                 <Helmet>
+                    <title>Thirteen | Project Detail Page</title>
                     <meta name="description" content="This is the about page which is all about me, Six" />
                 </Helmet>
-            </div>
                 <article id="main">
-                    <header class="about">
+                    <header>
                         <h2>{_.get(this.props, 'pageContext.frontmatter.title')}</h2>
                         {markdownify(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
                     </header>

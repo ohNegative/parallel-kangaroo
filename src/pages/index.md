@@ -52,7 +52,7 @@ sections:
           Tricare Healthcare 
           Military (DHA) portal
         text: >-
-          18 teams, 36 months, $18 million dollar project.<br>
+          18 teams, 36 months, $18 million.<br>
           Technologies: AngularJS 1.x., AEM CMS, Bootstrap framework.<br> 
           [Learn More](/work)
         home_img_path: images/tricare-wrk.jpg
