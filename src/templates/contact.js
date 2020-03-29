@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {Layout} from '../components/index';
-import {markdownify, Link} from '../utils';
+import {markdownify} from '../utils';
 import {Helmet} from 'react-helmet';
 
 /* eslint-disable */

@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact, markdownify, Link, safePrefix, classNames} from '../utils';
+import {htmlToReact, markdownify, safePrefix} from '../utils';
 
 export default class Features extends React.Component {
     render() {

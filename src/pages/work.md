@@ -16,9 +16,9 @@ sections:
       - title: Arcu accumsan
         feature_img_path: images/xps-wrk.jpg
         text: >-
-         [XPS Portal Details](/xps-detail)
+         Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem<br>
+         [XPS Portal Details](/xps-details)
       - title: Ac Augue Eget
-        feature_img_path:
         text: >-
           Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
           tincidunt nullam amet leo Aenean ligula consequat consequat.
