@@ -41,8 +41,7 @@ sections:
     background_style: style2
     spotlights:
       - title: |-
-          XPS Lubricants
-          corporate e-commerce site
+          XPS Lubricants e-commerce site
         text: >-
           Two month deadline. Still delivered on time and under budget.<br>
           Technologies: XML, MVC4, ASP.NET, Foundation framework.<br> 
@@ -57,8 +56,7 @@ sections:
           [Learn More](/tricare-detail)
         home_img_path: images/tricare-wrk.jpg
       - title: |-
-          U+B Architecture
-          interactive small business website
+          U+B Architecture website
         text: >-
           A full redesign and development effort over two years in the making.<br>
           Technologies: Wordpress and a lot of custom javascript.<br> 
