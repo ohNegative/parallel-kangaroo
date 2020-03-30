@@ -1519,6 +1519,21 @@ $palette: (
 			}
 		}
 
+		> .inner p img {
+			width: 60em;
+			margin: 0 auto;
+
+			@include breakpoint('<=large') {
+				width: 100%;
+				height: auto;
+			}
+
+			@include breakpoint('<=medium') {
+				width: 100%;
+				height: auto;
+			}
+		}
+
 		&.alt {
 			padding: 0;
 		}

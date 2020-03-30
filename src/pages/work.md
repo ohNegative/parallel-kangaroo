@@ -16,7 +16,7 @@ sections:
         feature_img_path: images/allsavers-wrk.jpg
         text: >-
           [All Savers Details](/allsavers-detail)
-      - title: Shadywood Tree Experts
+      - title: Shadywood Tree
         feature_img_path: images/shadywood-wrk.jpg
         text: >-
           [Shadywood Details](/shadywood-detail)
