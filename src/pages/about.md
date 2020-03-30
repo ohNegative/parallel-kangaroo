@@ -11,7 +11,7 @@ template: about
 
 ### Becoming a developer - the hard way
 
-My road to becoming a developer didn't start with a four year degree and lots of Silicon Valley companies dangling offers in front of me. I took the long, hard route. I went from wanting to be in academia to a chance encounter with a co-worker that changed everything. All the details are below.
+> My road to becoming a developer didn't start with a four year degree and lots of Silicon Valley companies dangling offers in front of me. I took the long, hard route. I went from wanting to be in academia to a chance encounter with a co-worker that changed everything. All the details are below.
 
 ***
 

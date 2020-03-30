@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import components, {Layout} from '../components/index';
-import {markdownify, htmlToReact} from '../utils';
+import {markdownify} from '../utils';
 
 export default class Page extends React.Component {
     render() {

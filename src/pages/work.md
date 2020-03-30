@@ -4,11 +4,7 @@ subtitle: A curated list of recent projects
 background_style: style4
 sections:
   - type: features
-    title: Some current projects I completed
-    subtitle: >-
-        Below is a list of projects I recently completed. Click through to find more
 
-        details about each projects including technologies and challenges I faced with each.
     section_id: three
     background_style: style4
     features:
