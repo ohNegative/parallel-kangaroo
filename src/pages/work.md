@@ -15,28 +15,28 @@ sections:
       - title: XPS Lubricants
         feature_img_path: images/xps-wrk.jpg
         text: >-
-         [XPS Details](/xps-details)
+         [XPS Details](/xps-detail)
       - title: All Savers Portal
         feature_img_path: images/allsavers-wrk.jpg
         text: >-
-          [All Savers Details](/allsavers-details)
+          [All Savers Details](/allsavers-detail)
       - title: Shadywood Tree Experts
         feature_img_path: images/shadywood-wrk.jpg
         text: >-
-          [Shadywood Details](/shadywood-details)
+          [Shadywood Details](/shadywood-detail)
       - title: Tricare Portal
         feature_img_path: images/tricare-wrk.jpg
         text: >-
-          [Tricare Details](/tricare-details)
+          [Tricare Details](/tricare-detail)
         icon: 
       - title: U+B Architects
         feature_img_path: images/ub-wrk.jpg
         text: >-
-          [U+B Details](/ub-details)
+          [U+B Details](/ub-detail)
       - title: Hyperbaric Therapy
         feature_img_path: images/hyper-wrk.jpg
         text: >-
-          [Hybaric Therapy Details](/hyper-details)
+          [Hybaric Therapy Details](/hyper-detail)
     component: WorkList
 menus:
   main:

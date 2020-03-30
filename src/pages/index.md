@@ -46,7 +46,7 @@ sections:
         text: >-
           Two month deadline. Still delivered on time and under budget.<br>
           Technologies: XML, MVC4, ASP.NET, Foundation framework.<br> 
-          [Learn More](/work)
+          [Learn More](/xps-detail)
         home_img_path: images/xps-wrk.jpg
       - title: |-
           Tricare Healthcare 
@@ -54,7 +54,7 @@ sections:
         text: >-
           18 teams, 36 months, $18 million.<br>
           Technologies: AngularJS 1.x., AEM CMS, Bootstrap framework.<br> 
-          [Learn More](/work)
+          [Learn More](/tricare-detail)
         home_img_path: images/tricare-wrk.jpg
       - title: |-
           U+B Architecture
@@ -62,64 +62,64 @@ sections:
         text: >-
           A full redesign and development effort over two years in the making.<br>
           Technologies: Wordpress and a lot of custom javascript.<br> 
-          [Learn More](/work)
+          [Learn More](/ub-detail)
         home_img_path: images/ub-wrk.jpg
     component: Spotlights
   - type: features
-    title: Accumsan mus tortor nunc aliquet
+    title: Current TEchnology Focus areas
     subtitle: >-
-      Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-      eleifend  
+      Web development moves fast. You have to keep up or you can fall behind 
+      pretty quickly.  
 
-      fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+      Below is a list of technologies and projects I'm currently working on
     section_id: three
     background_style: style3
     features:
-      - title: Arcu accumsan
+      - title: Javascript
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        icon: fa-paper-plane-o
-      - title: Ac Augue Eget
-        text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        icon: fa-laptop
-      - title: Mus Scelerisque
-        text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
+          So many frameworks, so little time. I'm focusing right now on
+          Angular, EmberJS and learning more ReactJS and VueJS.
         icon: fa-code
-      - title: Mauris Imperdiet
+      - title: Design Tools
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        icon: fa-headphones
-      - title: Aenean Primis
+          The last two years I've been doing a lot more prototyping and designing.
+          Love Sketch and InVision and now getting heavy into Adobe XD
+        icon: fa-crop
+      - title: Salesforce
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        icon: fa-heart-o
-      - title: Tortor Ut
+          Still a platform worth getting better at. Currently working on
+          getting an Admin certification. Love building apps on the platform.
+        icon: fa-cloud-upload
+      - title: Microsoft Blazor
         text: >-
-          Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-          tincidunt nullam amet leo Aenean ligula consequat consequat.
-        icon: fa-flag-o
+          Highly experimental, but a good alternative to building apps in 
+          C# instead of JS. I have one app I've already built with it. 
+        icon: fa-database
+      - title: Ionic Hybrid Apps
+        text: >-
+          I feel hybrid apps are where its at. Mobile? Desktop? Doesn't matter.
+          I love the marriage of Angular and Typescript with Ionic. 
+        icon: fa-power-off
+      - title: CSS Tools
+        text: >-
+          Love all the CSS tools and even now they keep raising the bar.
+          Progressing with SASS, CSS Grid, Flexbox, PostCSS and now Houdini? Awesome. 
+        icon: fa-css3
     component: Features
   - type: cta
-    title: Arcue ut vel commodo
+    title: Still need more?
     text: >-
-      Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-      eleifend fringilla.
+      Feel free to contact me, or take a look a my Github page
+      to find out what projects I'm working on.
     section_id: cta
     background_style: style4
     actions:
-      - label: Activate
-        url: /generic
+      - label: Contact Me
+        url: /contact
         is_scrolly: false
         is_primary: true
-      - label: Learn More
-        url: /generic
+      - label: Github
+        url: 'https://github.com/ohNegative'
         is_scrolly: false
         is_primary: false
     component: Cta

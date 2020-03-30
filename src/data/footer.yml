@@ -1,20 +1,14 @@
 social_icons:
-  - title: Twitter
-    icon: fa-twitter
-    url: '#'
-  - title: Facebook
-    icon: fa-facebook
-    url: '#'
-  - title: Instagram
-    icon: fa-instagram
-    url: '#'
-  - title: Dribbble
-    icon: fa-dribbble
-    url: '#'
+  - title: Github
+    icon: fa-github
+    url: 'https://github.com/ohNegative'
   - title: Email
     icon: fa-envelope-o
-    url: '#'
-copyright: '&copy; Spectral'
+    url: 'mailto:typeo80@outlook.com?subject=inquiry from recruiter'
+  - title: Gitlab
+    icon: fa-gitlab
+    url: 'https://gitlab.com/ohNegative'
+copyright: '&copy; Six13 Technologies |'
 links:
   - text: Made with Stackbit
     url: 'https://www.stackbit.com'

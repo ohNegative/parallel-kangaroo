@@ -18,7 +18,7 @@ export default class Contact extends React.Component {
                 </Helmet>
             </div>
                 <article id="main">
-                    <header>
+                    <header class="contact">
                         <h2>{_.get(this.props, 'pageContext.frontmatter.title')}</h2>
                         {markdownify(_.get(this.props, 'pageContext.frontmatter.subtitle'))}
                     </header>
