@@ -1,5 +1,4 @@
 ---
-
 title: Tricare Military Portal Detail
 subtitle: Enterprise Portal Project
 background_style: style5
@@ -52,5 +51,5 @@ This was a massive project. We had over eighteen teams working together on a sin
 * First major project that used Angular JS coupled with AEM to successfully build a portal site.
 
 
-[Tricare Military Healthcare](https://www.tricare.mil/)
+[Tricare Military Healthcare Website](https://www.tricare.mil/)
 
