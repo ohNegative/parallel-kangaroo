@@ -21,7 +21,9 @@ I graduated with a degree in Cultural Anthropology. I had dreams of studying and
 
 I spent most of my post college career jumping from job to job. I was working for small businesses. The kind where your job will be same if you’re there a day or ten years. I still had a yearning to do something else, I just couldn’t manage to get out of the rut I had put myself in.
 
-Then I started dating my future wife. She pushed me to want more. She kept telling me I was smarter than a hardware hacker who fixes cellphones for a measly paycheck every week. I should aim higher. Get a gig at a big corporation and then look around and figure out what you really want to do.
+Then I started thinking I should really want more out of my career. I had effectively settled into a rut where things were comfortable, but would never allow me to get ahead beyond where I currently was. My family and my friends keep telling me I was a lot smarter than a hardware hacker fixing cellphones for a modest paycheck. I should get out there and find out what I really wanted to do. 
+
+I have always had goals. Once I decided I was going to get out of the position I was currently in, my game plan was to get a sales gig at a large corporation in their sales department. The next phase was to network with everybody I could, and find a place where I could get out of sales permanently, and start a new career.
 
 
 #### Thomson Reuters
