@@ -2,7 +2,7 @@
 title: Home
 banner:
   title: "Name: Six"
-  subtitle: "Role: UI|UX Designer"
+  subtitle: "Role: UI|UX Developer"
   actions:
     - label: Recent Work
       url: /work
@@ -15,12 +15,10 @@ banner:
     is_scrolly: true
 sections:
   - type: icons
-    title: |-
-      Minneapolis based UI/UX designer
-      with over 7 years of experience
-    subtitle: I've built everything from static web sites to portals and enterprise
-      applications.<br>  I take a user centered approach with all my design and
-      development work.
+    title: Minneapolis based UI/UX developer with over 4 years of experience
+    subtitle: I've built and designed everything from static web sites to portals
+      and enterprise applications.<br>  I take a user centered approach with all
+      my design and development work.
     section_id: one
     background_style: style1
     feature_icons:
