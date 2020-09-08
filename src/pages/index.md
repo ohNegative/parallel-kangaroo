@@ -2,7 +2,7 @@
 title: Home
 banner:
   title: "Name: Six"
-  subtitle: "Role: UI|UX Designer"
+  subtitle: "Role: UI|UX Developer"
   actions:
     - label: Recent Work
       url: /work
